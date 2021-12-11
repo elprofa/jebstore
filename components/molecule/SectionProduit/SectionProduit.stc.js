@@ -5,6 +5,7 @@ const SectionProduitStc=Styled.div`
     {
         box-shadow: 0 14px 25px 0 rgb(0 0 0 / 20%);
         border: 0px;
+        min-height: 315px;
 
         img
         {

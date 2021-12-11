@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { theme } from "../../theme";
 import { GlobalCSS } from "../../public/styles/style";
 import MyHeader from "../../components/molecule/MyHeader";
+import MyFooter from "../../components/molecule/MyFooter";
 
 const Layout = ({ children, ...props }) => {
   return (
@@ -18,7 +19,7 @@ const Layout = ({ children, ...props }) => {
       <GlobalCSS />
       <MyHeader />
       {children}
-      {/* <Footer /> */}
+     <MyFooter />
     </ThemeProvider>
   );
 };
