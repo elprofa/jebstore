@@ -147,7 +147,7 @@ function SectionProduit() {
                 <div className="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-5">
                         <h1>
-                            <span>JEBSTORE</span>
+                            <span>JEBSTORE.</span>
                         </h1>
                     </div>
                     
